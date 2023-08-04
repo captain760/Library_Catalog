@@ -19,7 +19,7 @@ jobs:
         node-version: 18.x
         cache: 'npm'
     - run: npm install  
-    - run: npm install -D @playright/test
+    - run: npm install -D @playwright/test
     - run: npm test
     
   deploy:
