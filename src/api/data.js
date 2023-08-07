@@ -1,7 +1,7 @@
 import * as api from './api.js';
 
-const host = 'https://lib-cat-backend.onrender.com/'
-api.settings.host = 'https://lib-cat-backend.onrender.com/:3030';
+const host = 'https://lib-cat-frontend.onrender.com/'
+api.settings.host = 'https://lib-cat-frontend.onrender.com/:3030';
 
 export const login = api.login;
 export const register = api.register;
