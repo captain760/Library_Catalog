@@ -1,5 +1,5 @@
 export const settings = {
-    host: '',
+    host: 'https://lib-cat-backend.onrender.com/',
 };
 
 async function request(url, options) {
