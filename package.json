@@ -5,7 +5,7 @@
     "main": "index.html",
     "scripts": {
         "test": "npx playwright test tests/ui.test.js",
-        "start": "http-server -a lib-cat-backend.onrender.com -p 8080 -P https://lib-cat-backend.onrender.com:8080? -c-1"
+        "start": "http-server -a lib-cat-frontend.onrender.com -p 8080 -P https://lib-cat-frontend.onrender.com:8080? -c-1"
     },
     "author": "",
     "license": "ISC",
